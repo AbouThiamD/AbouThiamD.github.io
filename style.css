@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+
+}
+
+.block{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #f1faee;
+    
+}
+
+.block video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .itemss {
+    margin-right: 50px;
+  }
+  
+  .itemss img {
+    height: 200px;
+    width: 100%;
+  }
+  
+  #photo_header {
+    margin-right: 40%;
+  }
+
+
+  .itemss a {
+    text-decoration: none;
+    color: #f5e7de;
+  }
+  .bien p {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+}
+
+.containerblock2{
+    display: flex;
+   background-color: #9fb8ad
+
+}
+
+.txtcote{
+margin-left: 10%;
+width: 40%;
+margin-top: 5%;
+
+
+
+}
+
+.txtcote h2{
+    margin-top: 10px;
+    color: #f749f6;
+   
+}
+  .block2{
+    margin: 0;
+    height: auto;
+    background-color: #2F1A2F;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+.itemsblock1{
+  
+  width: 35%;
+  margin-top: 100px;
+  margin-left: 5%;
+}
+
+.itemsblock1 img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.itemsblock2{
+
+  height: 700px;
+  width: 50%;
+  margin-top: 100px;
+  color: #f1faee;
+  overflow: hidden;
+}
+
+
+.itemsblock2 p {
+  margin-top: 50px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right:50px ;
+  font-size: 18px;
+
+}
+
+.itemsblock2 h2{
+  color: #f749f6;
+}
+
+.itemsblock2 button{
+  text-align: center;
+  color: #f749f6;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  font: bold;
+  display: block;
+  margin: auto;
+  margin-top:100px ;
+  
+}
+
+.competences h4{
+  font-size: 16px;
+}
+.competences{
+  background-color: #2F1A2F;
+  margin: 0%;
+  height: 1000px;
+  color: #f1faee;
+}
+
+.competences h2{
+  margin: 0px;
+  text-align: center
+}
+
+.competences p{
+  text-align: center
+}
+
+;.competences h1{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+.skills-area{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill-titre{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.skill-bar{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill{
+  background: #f749f6;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: 30px;
+  overflow: hidden;
+}
+
+.skill-percent{
+  font-size: 20px;
+}
+
+.html{
+  animation: html 2s;
+  width: 80%;
+}
+
+.css{
+  animation: css 2s;
+  width: 50%;
+}
+
+.js{
+  animation: css 2s;
+  width: 40%;
+}
+
+.sql{
+  animation: css 2s;
+  width: 40%;
+}
+
+.spring{
+  animation: css 2s;
+  width: 40%;
+}
+
+
+@keyframes html{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+
+  
+}
+
+@keyframes css{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+
+  
+}
+
+@keyframes js{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+
+  
+}
+
+@keyframes html{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+
+  
+}
+
+@keyframes html{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+
+  
+}
+
+.divphotofin{
+  background-color: #bb17bb;
+  width: 100%;
+  height: 300px;
+}
+
+
+.divphotofin img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cv{
+  display: flex;
+  justify-content: space-around;
+  background-color: #2F1A2F;
+  height: 600px;
+  width: 100%;
+}
+
+.cv h2{
+  margin-top:40px ;
+}
+
+.cvdroite{
+  width: 40%;
+}
+.cvgauche{
+  width: 40%;
+}
+.cvdroite .box{
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 40px;
+}
+
+.cvgauche .box1{
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 40px;
+}
